@@ -24,4 +24,5 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: puzits/shellcustomaction@main
-        who-to-greet: "puzit"
+        with:
+         who-to-greet: "puzit"
